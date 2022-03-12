@@ -22,7 +22,7 @@ function renderGallery (arrayOfImages) {
     imageContainer.insertAdjacentHTML('beforeend', markUp);
 };
 
-renderGallery(galleryItems);
+renderGallery(galleryItems);``
 
 
 
@@ -31,3 +31,4 @@ let gallery = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
   });
+
